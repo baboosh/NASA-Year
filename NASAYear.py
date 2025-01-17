@@ -9,7 +9,7 @@ import time
 
 class NASAYearApp(rumps.App):
     def __init__(self):
-        super(NASAYearApp, self).__init__("NASA YEAR: ----", quit_button=None)  # Remove default quit button
+        super(NASAYearApp, self).__init__("NASA YEAR: ----", quit_button=None) 
         self.driver = None
         self.setup_browser()
         self.menu = ["stop scientifically tracking the year", "link to source data"] 
