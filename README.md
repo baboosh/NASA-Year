@@ -5,5 +5,5 @@ the most accurate year checker. polls data from iss-mimic (https://iss-mimic.git
 how to run:
 - pip install rumps
 - pip install selenium
-- google
+- have google installed
 - run it in a command line with sudo. (sudo python3 NASAyear.py)
